@@ -1,0 +1,10 @@
+def info(surname, name, c, city, street, hous, hous_number):
+	surname = input("Фамилия: ")
+	name = input("Имя: ")
+	country = input("Страна: ")
+	city = input("Город: ")
+	street = input("Улица: ")
+	hous = input("Дом: ")
+	hous_number = input("Номер дома: ")
+	print()
+info(1,2,"Россия", "Краснодар", "Сиренивая", 580, 1)
